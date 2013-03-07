@@ -1,0 +1,15 @@
+
+
+[Sent 16.1.2013 16:53]
+Filtteröintiprosessi on dokumentoitu seuraavasti:
+- Kaikki viitteet bib:ssä: Raaka tietokantahakujen tulos, duplikaatit poistettu
+- Bib-sarake "filterkimi": Kimin itsenäiset filtreröintipäätökset
+- Bib-sarake "filtermaria": Marian itsenäiset filtreröintipäätökset
+- Bib-sarake "review15": Eilen 15. päivä tehdyt yhteiset filteröintipäätökset niistä viitteistä joissa oli erimielisyyttä
+
+Seuraavat tulokset:
+- 161 viitettä valittu fultextiä varten
+- 56 viitettä, joissa sekä Kimi että Maria oli samaa mieltä
+- 105 viitettä, joissa jompi kumpi ei ollut ottanut selkeää includea
+- 88 jomman kumman "interesting" viitettä
+
