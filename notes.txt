@@ -13,3 +13,13 @@ Seuraavat tulokset:
 - 105 viitettä, joissa jompi kumpi ei ollut ottanut selkeää includea
 - 88 jomman kumman "interesting" viitettä
 
+
+
+Include scaling ??
+------------------
+
+Should "scaling" be included as a keyword?
+ - Scaling could be considered to be like "introducing" if the team was
+   originally small. Then the "enterprise adoption" would be the scaling part.
+
+
