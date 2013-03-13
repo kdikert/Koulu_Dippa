@@ -23,3 +23,9 @@ Should "scaling" be included as a keyword?
    originally small. Then the "enterprise adoption" would be the scaling part.
 
 
+What about the removed "implement" and "apply" ??
+-------------------------------------------------
+
+Should these be included?
+
+
