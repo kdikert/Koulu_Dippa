@@ -1,0 +1,238 @@
+
+\documentclass[12pt,a4paper,oneside,pdftex]{report}
+
+\usepackage[utf8]{inputenc}
+
+% OT1 font encoding seems to work better than T1. Check by zooming very close
+% to any letter  if the letter is shown pixelated.  
+\usepackage[OT1]{fontenc}
+
+% Language and hyphenating instructions.
+\usepackage[english,finnish]{babel}
+
+
+% Optional packages
+% ------------------
+
+
+%\usepackage[square,sort&compress,numbers]{natbib}
+\usepackage[square]{natbib}
+
+\usepackage{eurosym} 
+
+% Verbatim provides a standard teletype environment that renderes
+% the text exactly as written in the tex file - useful for code snippets
+\usepackage{verbatim}
+
+% Supertabular provides tables that can span multiple pages. 
+\usepackage{supertabular}
+
+% The fancyhdr package allows you to set your the page headers 
+% manually, and allows you to add separator lines and so on. 
+% \usepackage{fancyhdr}
+
+% The titlesec package can be used to alter the look of the titles 
+% of sections, chapters, and so on.
+\usepackage[medium]{titlesec}
+
+\usepackage{booktabs}
+
+
+% The aalto-thesis package.
+% Load this package second-to-last, just before the hyperref package.
+% Options that you can use: 
+%   mydraft - renders the thesis in draft mode. 
+%             Do not use for the final version. 
+%   doublenumbering - [optional] number the first pages of the thesis
+%                     with roman numerals (i, ii, iii, ...); and start
+%                     arabic numbering (1, 2, 3, ...) only on the 
+%                     first page of the first chapter
+%   twoinstructors  - changes the title of instructors to plural form
+%   twosupervisors  - changes the title of supervisors to plural form
+\usepackage[mydraft]{aalto-thesis}
+%\usepackage{aalto-thesis}
+%\usepackage[mydraft,twosupervisors]{aalto-thesis}
+%\usepackage[mydraft,doublenumbering]{aalto-thesis}
+
+
+% Hyperref creates links from URLs, for references, and creates a
+% TOC in the PDF file.
+% This package must be the last one you include, because it has
+% compatibility issues with many other packages and it fixes
+% those issues when it is loaded.   
+\RequirePackage[pdftex]{hyperref}
+% Setup hyperref so that links are clickable but do not look 
+% different
+\hypersetup{colorlinks=false,raiselinks=false,breaklinks=true}
+\hypersetup{pdfborder={0 0 0}}
+\hypersetup{bookmarksnumbered=true}
+% The following line suggests the PDF reader that it should show the 
+% first level of bookmarks opened in the hierarchical bookmark view. 
+\hypersetup{bookmarksopen=true,bookmarksopenlevel=1}
+% Hyperref can also set up the PDF metadata fields. These are
+% set a bit later on, after the thesis setup.
+
+
+% Thesis setup
+% ==================================================================
+% Change these to fit your own thesis.
+% \COMMAND always refers to the English version;
+% \FCOMMAND refers to the Finnish version; and
+% \SCOMMAND refers to the Swedish version.
+% You may comment/remove those language variants that you do not use
+% (but then you must not include the abstracts for that language)
+% ------------------------------------------------------------------
+\newcommand{\TITLE}{Adopting agile in large organizations:}
+\newcommand{\FTITLE}{Ketterien menetelmien käyttöönotto suurisa organisaatioissa:}
+\newcommand{\SUBTITLE}{A case study of LMF Ericsson}
+\newcommand{\FSUBTITLE}{Ericsson LMF -tapaustutkimus}
+\newcommand{\DATE}{June 18, 2011}
+\newcommand{\FDATE}{18. kesäkuuta 2011}
+
+\newcommand{\SUPERVISOR}{Professor Casper Lassenius}
+\newcommand{\FSUPERVISOR}{Professori Casper Lassenius}
+
+\newcommand{\INSTRUCTOR}{Maria Paasivaara PhD}
+\newcommand{\FINSTRUCTOR}{TkT Maria Paasivaara}
+
+
+% Other stuff
+% ------------------------------------------------------------------
+\newcommand{\PROFESSORSHIP}{Software Engineering}
+\newcommand{\FPROFESSORSHIP}{Ohjelmistotuotanto ja -liiketoiminta}
+\newcommand{\PROFCODE}{T-76}
+\newcommand{\KEYWORDS}{agile, software development, large scale, transformation}
+\newcommand{\FKEYWORDS}{ketterä, ohjelmistokehitys, organisaatiomuutos}
+\newcommand{\LANGUAGE}{English}
+\newcommand{\FLANGUAGE}{Englanti}
+
+\newcommand{\AUTHOR}{Kim Dikert}
+
+
+% Set up PDF file metadata
+\hypersetup{pdftitle={\TITLE\ \SUBTITLE}}
+\hypersetup{pdfauthor={\AUTHOR}}
+\hypersetup{pdfkeywords={\KEYWORDS}}
+\hypersetup{pdfsubject={Master's Thesis}}
+
+
+% Layout settings
+% ------------------------------------------------------------------
+
+% When you write in English, you should use the standard LaTeX 
+% paragraph formatting: paragraphs are indented, and there is no 
+% space between paragraphs.
+% When writing in Finnish, we often use no indentation in the
+% beginning of the paragraph, and there is some space between the 
+% paragraphs. 
+% \setlength{\parindent}{0pt}
+% \setlength{\parskip}{1ex}
+
+% Use this to control how much space there is between each line of text.
+% 1 is normal (no extra space), 1.3 is about one-half more space, and
+% 1.6 is about double line spacing.  
+% \linespread{1} % This is the default
+% \linespread{1.3}
+
+\bibliographystyle{plainnat}
+% \bibliographystyle{acm}    % acm  works only with numbered references.
+
+
+% Extra hyphenation settings
+\hyphenation{di-gi-taa-li-sta yksi-suun-tai-sta}
+
+
+
+
+% ---------------------------------------------------------------------
+% -------------- DOCUMENT ---------------------------------------------
+% ---------------------------------------------------------------------
+
+\begin{document}
+
+\pdfbookmark[0]{Cover page}{bookmark.0.cover}
+
+% From aalto-thesis.sty
+\startcoverpage
+
+\coverpage{english}
+
+% Abstracts
+% ------------------------------------------------------------------
+\input{abstract.tex}
+
+
+\selectlanguage{english}
+
+
+% Acknowledgements
+% ------------------------------------------------------------------
+% \chapter*{Acknowledgements}
+% 
+% I wish to thank all students who use \LaTeX\ for formatting their theses,
+% because theses formatted with \LaTeX\ are just so nice.
+% 
+% Thank you, and keep up the good work!
+% \vskip 10mm
+% 
+% \noindent Espoo, \DATE
+% \vskip 5mm
+% \noindent\AUTHOR
+
+
+% Acronyms
+% \cleardoublepage
+% \input{acronyms}
+
+
+% Table of contents
+\cleardoublepage
+\pdfbookmark[0]{Contents}{bookmark.0.contents}
+\tableofcontents
+
+% List of tables
+% \cleardoublepage
+% \listoftables
+
+% Table of figures
+% \cleardoublepage
+% \listoffigures
+
+% The following label is used for counting the prelude pages
+\label{pages-prelude}
+\cleardoublepage
+
+% Main content
+% ------------------------------------------------------------------
+
+% From aalto-thesis.sty
+\startfirstchapter
+
+% Add headings to pages (the chapter title is shown)
+\pagestyle{headings}
+
+\input{ch1_introduction.tex}
+
+\input{ch2_background.tex}
+
+\input{ch3_slr.tex}
+
+\input{ch4_ericsson.tex}
+ 
+\input{ch5_discussion.tex}
+
+\input{ch6_conclusion.tex}
+
+
+% Load the bibliographic references
+% ------------------------------------------------------------------
+\pdfbookmark[0]{Bibliography}{bookmark.0.bibliography}
+\bibliography{sources}
+
+
+% Appendices go here
+% ------------------------------------------------------------------
+% \appendix
+% \input{appendices.tex}
+
+\end{document}
