@@ -1,0 +1,161 @@
+
+----------------------- REVIEW 1 ---------------------
+PAPER: 39 TITLE: Adopting agile in the large: motivations, success factors and
+challenges AUTHORS: Kim Dikert, Maria Paasivaara and Casper Lassenius
+
+OVERALL EVALUATION: -2 (reject)
+
+----------- REVIEW -----------
+
+- Paper aims at reporting systematic review on large companies to provide
+  evidence on the motivations, success factors and challenges reported. The
+  topic of the paper is valid and increasing amount of papers have lately been
+  focused on adopting agile in large enterprises.
+  
+- Unfortunately, the paper seems to be still very draft in terms of the focus,
+  data collection as well as in the application of systematic review approach.
+  Most of the papers listed are fairly old, excludes many recent papers –
+  especially journal papers seems to be nearly missing from the current list.
+  Also, half of the papers seem to be only from one conference.
+
+- In the paper, the current definition used for large company is ≥50 persons.
+  Please, present definitions from different sources to back up using such a low
+  limit. It could be claimed that using this limitation for selecting papers will
+  now include most of the published papers.
+  
+- The selection criteria should be clarified more clearly. What if paper reports
+  results from one project only (not focusing on organizational deployment), yet
+  the organization is large? The scope of the paper should be sharpened, thus
+  having more clear paper selection criteria.
+  
+- In table2., Lean is listed incorrectly as one agile method reported in the
+  studies.
+
+- Missing details in the list of primary studies, e.g. conference information
+  [S14, S12] as well as different syntax of naming references.
+
+- In Table 3. The reasons for transformation include need to improve performance
+  and time to market. Please define what is the difference between these? Where
+  do the quality and cost issues fall in these categories, for instance?
+
+- Paper has good topic but still needs more work and focus to be ready for publishing.
+
+
+
+
+----------------------- REVIEW 2 ---------------------
+PAPER: 39 TITLE: Adopting agile in the large: motivations, success factors and
+challenges AUTHORS: Kim Dikert, Maria Paasivaara and Casper Lassenius
+
+OVERALL EVALUATION: -2 (reject)
+
+----------- REVIEW -----------
+
+Agile in the large is clearly a relevant topic for the conference and for the
+wider community. However, the manuscript has too many shortcomings to add to
+the body-of-knowledge.
+
+In the intro, the authors claim that the application of agile methods has proven
+to be problematic in a larger scale. Nothing is ever proven in research, and
+there are several examples of success that could have been referred to here to
+*prove* the opposite.
+
+Performing a "systematic review" without a research protocol or research
+questions or visible inclusion/exclusion criteria isn't good practice. Neither
+is it to perform it only by one researcher. And especially so when there are
+three authors of the manuscript. So, what did the second and third authors do?
+Didn't they check anything of what the first author did?
+
+Mixing experience reports and research studies without qualifying which was
+which in the results and analysis just clutters the overall results. Combined
+with a lack of quality assessment, this  leaves the reader with a question on
+what the evidence and value of the current study really is.
+
+Leaving out on agile management seems a bit odd, when the manuscript at the same
+time mentions that "the central role of management in the change was evident in
+many studies." Maybe this would have been even more evident if studies on agile
+management also had been included?
+
+The manuscript clearly represents unfinished work.
+
+
+
+
+----------------------- REVIEW 3 ---------------------
+PAPER: 39 TITLE: Adopting agile in the large: motivations, success factors and
+challenges AUTHORS: Kim Dikert, Maria Paasivaara and Casper Lassenius
+
+OVERALL EVALUATION: 1 (weak accept)
+
+----------- REVIEW -----------
+
+Review: Adopting agile in the large: motivations, success factors and challenges
+
+The authors address a very interesting topic. There is a need for more knowledge
+about agile in the large. The paper is only 8 pages (6 paper with text and 2
+pages with references), and miss a discussion. Therefore I believe this is a
+short paper.
+***I therefore evaluate the paper as a short paper.***
+
+The paper is easy to read.
+
+Page 1:
+Summary → abstract The authors write: “where development teams can not be
+autonomous”. Even in large organizations teams can be autonomous.
+
+1 Introduction:
+“In a large organization development teams will need to interface with other
+organizational units” I would argue that this is also the case with small
+organizations.
+
+The authors have forgotten to define what is a large organization.
+Also does a large software organization mean a large software development
+organizations? Is it related to large projects? Is it product companies only?
+Some large organizations have small development departments.
+
+“that encourages large organizations to consider adopting agile methods.” Today
+large organizations and large projects are adopting agile, however there is
+little evidence on how this is done and what works.
+
+2 Background
+
+I reccomende Vinekar et al, CAN AGILE AND TRADITIONAL SYSTEMS DEVELOPMENT
+APPROACHES COEXIST? AN AMBIDEXTROUS VIEW they have a section on "size"
+
+the authors argue: “One significant difference between small and large scale
+adoptions is that large organizations have more dependencies between projects
+and teams”
+
+from my experience it depends on the size of the projects. Some big companies
+have several independent and small teams organized in departments. Then there is
+often a low dependence between the teams.
+
+3 Research method Which author did the work? The first author? How was the rest
+of the authors involved?
+
+This review was not an SLR, therefore I suggest removing the reference to
+Kitchenham’s method for systematic literature reviews (SLR). Describe what was
+done.
+
+“The selection process of the primary studies is summarized in Figure 1. The
+database search yielded 1603 matches which were filtered down to 31 selected
+primary studies.” Please describe in detail how this was done
+
+“One study was not available, which reduced the final number of primary studies
+to 30.” Why?
+
+“Secondly, the papers had to indicate that the development organization is
+considered being large (smallest included reported 50 persons)” - this is not
+the definition of large
+
+“The presence of several development teams also had to be indicated”
+  - Why?
+  - Some companies report having one large team.
+I´m not sure if “transformations” make sense in fig 2” Time of publications and
+transformations”.
+
+If you got an overview of the companies involved it would be interesting to have
+a graph: e.g. which countries, continents.
+
+A discussion is missing. It would be interesting to relate the finding to other
+literature.
