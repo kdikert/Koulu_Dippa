@@ -21,6 +21,11 @@ Focus of the literature review
 ** We do not want to map what secondary studies say
 ** We do not include questionnaires, as they are not case studies
 
+** We don't use quantitative measures as evidence for research questions.
+   This is because some companies have released multiple reports. Multiple
+   reports from the same company were still included in the case that each
+   report provided unique viewpoints.
+
 
 Include scaling ??
 ------------------
